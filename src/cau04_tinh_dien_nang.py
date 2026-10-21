@@ -19,6 +19,11 @@ print(type(chi_phi_2))
 print(dien_nang_kwh2)
 print(chi_phi_2 )
 
+#So sánh kết qua
+# Khi giảm so_phut từ 90 xuống 60 (giảm 1.5 lần):
+# Điện năng tiêu thụ giảm từ 0.375 kWh xuống 0.25 kWh
+# Chi phí điện giảm từ 1125.0 VND xuống 750.0 VND
+
 dien_nang_chenh_lech = dien_nang_kwh1 - dien_nang_kwh2
 chi_phi_chenh_lech = chi_phi_1 - chi_phi_2
 print(dien_nang_chenh_lech)
